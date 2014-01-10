@@ -1,0 +1,7 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#header-logo { background-image:url('../images/trmk-icon-16x16.png'); }
+
+#trmk_widget { overflow:hidden; }
+.trimark-logo { display: block; max-width: 100%;}
