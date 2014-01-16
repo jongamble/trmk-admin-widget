@@ -34,7 +34,7 @@ add_action( 'admin_head', 'trmk_admin_head' );
 function trmk_build_widget() { ?>
 	<img class="trimark-logo" src="<?php echo plugins_url( '/images/logo-trimark-digital.jpg', __FILE__); ?>" />
 	<p class="trimark-copy">This website was developed by Trimark Digital. Got questions about your website? Call Us at 919-785-2275 or shoot us an email at 
-		<a href="mailto:jon@trimarkdigital.com?subject=Admin Widget Contact Form from <?php echo get_bloginfo( 'wpurl' ); ?>">jon@trimarkdigital.com</a>.</p>
+		<a href="mailto:managers@trimarkdigital.com?subject=Admin Widget Contact Form from <?php echo get_bloginfo( 'wpurl' ); ?>">managers@trimarkdigital.com</a>.</p>
 <?php }
 
 function trmk_init_widget() {
